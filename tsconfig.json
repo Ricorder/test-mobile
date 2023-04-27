@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "types": ["react/next", "react-dom/next"],
+    "lib": ["es6", "dom"],
+    "target": "ES6",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+  },
+}
